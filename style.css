@@ -733,12 +733,18 @@ body {
     }
 }
 @media (min-width: 1600px) and (min-height: 795px) /* responsive */ {
+    html {
+        font-size: 18px;
+    }
     .card {
         height: 69%;
         width: 19%;
     }
+    .img {
+        height: 56%;
+    }
     .img .cyan {
-        height: 92%;
+        height: 88%;
     }
 }
 @media (min-width: 1920px) and (min-height: 1080px) /* responsive */ {
